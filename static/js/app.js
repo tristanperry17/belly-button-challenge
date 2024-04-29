@@ -39,7 +39,7 @@ function buildCharts(sample) {
     // Get the samples field
     const samples = data.samples;
 
-    // Filter the samples for the object with the desired sample number
+    // Filter the samples for the desired sample number
     const selectedSample = samples.find(item => item.id === sample);
 
     // Get the otu_ids, otu_labels, and sample_values
